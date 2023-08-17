@@ -13,8 +13,8 @@ API_HASH = getenv("API_HASH", "e2714facad4b32d083303781af4d5029")
 BOT_TOKEN = getenv("BOT_TOKEN", "6144535438:AAHcHPWzoPzhvfaiFcVdZ6Kcm8_v2FMXkpU")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://tansel266:tansel1430@cluster0.nbhxbsl.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001907105547"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TrendyolMusic_bot")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001821230344"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "forzamusicbot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5933807411").split()))
 
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/sjrvan/trendyol")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TrendyolNews")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TrendyolNews")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/forzanewsaz")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/forzanewsaz")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BADBfPI6x-0uiSL0IfMJpR8AC5HtjP9nh5G10gbaF3e_QfvcF-R53cLWbmVJk0qtA_3yVF-rjBzPRtU-hurZhKS9--8e6EUf_93Bc8C2WrSnUXenaGUn5e27bFrUQxkMP7_kQzxuRaqVxY-FlW0ImBnhx8iXavCjwXTH5SfaI1tgp-T4hMB5yYsW0QXqsSUf8lK1GieMEIfD01N24PPsON6klsanDcZ_fTJYmLdd_ZVjgHJ-yMJJHIxkJO-lVqnYr7KLbNLn-zXuDtCmOQ4Y4PQ1VvxyGCZ3tEKdx3w0XUyWG2bu5A1cvbfzepnW3gcI2ZqUaChSqY8iLa8Y_D-UxmgoAAAAAXFYizYA")
+STRING1 = getenv("STRING_SESSION", "BAAKJHEWoGu6fuqd0Mkao44sE7z0efh5wtWRDAaeqytHOJqXw-JUZ9Sk5z7nTDKq6i4O590myTWKpR18_xYdEgZVsox5M3lEbp-1IX4CQ3F8FpW04F8aI5xfq8HX2zHs0jE0Ec2ie--izGcckMv9mjYFaq-Mz3Q2fDWWuvvvOul77e1xWClITiz5ViIL6QmHX7DET-hTSQI5JnkQfssN7ozB84ei3fWralbpqIob9Bn9T4uTTplQSaesvA5bjHcSpkotdOUF5bRjrXkTkmFAFy7Oy7m5Ju5hiU6FSkA3BJphEhaB07VNINlaRop7ibow4a0BwaFDNvNd0MMbZMcrR2FbAAAAAXAEQYcA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
